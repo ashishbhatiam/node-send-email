@@ -16,7 +16,7 @@ app.use(express.json())
 // routes
 app.get('/', (req, res) => {
   res.send(
-    '<h1>Node Send Email Project</h1><a href="/send-email/local">Click me to Send an Email using Fake Local SMTP Provider!</a>'
+    '<h1>Node Send Email Project</h1><a href="/send-email/local">Click me to Send an Email using Fake Local SMTP Provider!</a><br><br><a href="/send-email/production">Click me to Send an Email using an Cloud-based SMTP Server Provider!</a>'
   )
 })
 
